@@ -56,6 +56,10 @@ public class Main {
                         dan = 1;
                         mesec++;
                     }
+                    if (dan == 29){
+                        out.println("Uneta godina nije prestupna, shodno tome nema 29 dana u februaru.");
+                        break;
+                    }
                     else {
                         dan++;
                     }
